@@ -55,3 +55,4 @@ curl -X POST http://localhost/actu-app/api/articles.php \
   -H "Content-Type: application/json" \
   -d '{"titre":"Test","contenu":"Contenu de test","categorie":2}'
 ```
+
