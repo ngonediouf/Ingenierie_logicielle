@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+    background: #ffffff;
+    color: #1a1a1a;
+}
+
+header.site-header {
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20px 20px;
+}
+
+header.site-header h1 {
+    margin: 0;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    letter-spacing: 6px;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+nav.main-nav {
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 12px 0;
+    border-top: 1px solid #222;
+}
+
+nav.main-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 6px;
+    border-bottom: 3px solid transparent;
+}
+
+nav.main-nav a:hover,
+nav.main-nav a.active {
+    border-bottom-color: #2ecc71;
+}
+
+nav.main-nav a.active-pink {
+    border-bottom-color: #ff2d95;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 20px 60px;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.article-card {
+    background: #d4d4d4;
+    border: 1px solid #999;
+    border-radius: 6px;
+    padding: 18px 22px;
+    margin-bottom: 20px;
+}
+
+.article-card h3 {
+    margin: 0 0 10px;
+    font-family: 'Comic Sans MS', 'Segoe Print', cursive;
+    font-size: 20px;
+}
+
+.article-card p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.article-meta {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #444;
+}
+
+.empty {
+    text-align: center;
+    color: #666;
+    margin-top: 40px;
+}
