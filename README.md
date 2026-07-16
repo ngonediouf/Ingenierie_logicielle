@@ -1,3 +1,4 @@
+
 # Polytech Actu — MVC classique
 
 ## Architecture
@@ -65,3 +66,4 @@ technique supplémentaire :
 | `public/?controller=article&action=show&id=2` | Détail de l'article 2 |
 | `public/api/articles.php` | Articles en JSON |
 | `public/api/categories.php` | Catégories en JSON |
+
